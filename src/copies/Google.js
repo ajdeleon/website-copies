@@ -1,10 +1,14 @@
 import React from 'react'
 
 import Nav from './components/Nav'
+import Body from './components/Body'
 
 const Google = () => {
   return (
-    <Nav />
+    <React.Fragment>
+      <Nav />
+      <Body />
+    </React.Fragment>
   )
 }
 
