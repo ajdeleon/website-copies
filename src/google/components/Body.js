@@ -6,7 +6,9 @@ const Body = () => {
   <div className="center mw6 mt0">
     <img src={sample} alt="Main"/>
     <div className="flex justify-center mb4">
-      <input className="w-80 h2"/>
+      <form className="flex justify-center w-100">
+        <input type="text" className="h2 w-80"/>
+      </form>
     </div>
     <div className="flex justify-center items-center f6 b gray">
       <a className="bg-black-10 w4 h2 flex justify-center items-center">Google Search</a>

@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Nav from './components/Nav'
-import Body from './components/Body'
+import Nav from './Nav'
+import Body from './Body'
 
 const Google = () => {
   return (
