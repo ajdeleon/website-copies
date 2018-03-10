@@ -2,13 +2,8 @@ import React from 'react'
 
 const Twitter = () => (
   <div className="flex flex-column min-vh-100 helvetica">
-    <div className="flex flex-grow-1">
-      <div className="bg-light-blue f4 flex white flex-grow-1 flex-column justify-center items-center w-50">
-        <div className="pb4 w-60"><i class="fas fa-search"></i> Follow your interests</div>
-        <div className="pb4 w-60"><i class="far fa-user"></i> Hear what people are talking about</div>
-        <div className="w-60"><i class="far fa-comment"></i> Join the Conversation</div>
-      </div>
-      <div className="flex-grow-1 justify-around w-50 bg-bottom">
+    <div className="flex-ns flex-grow-1-ns flex-row-reverse w-100">
+      <div className="flex-grow-1 justify-around w-50-ns bg-bottom">
         <div className="tc ph4">
           <form className="mt3 flex justify-center dn-m">
             <input className="h2 o-60 f6 mr2 pl2" type="text" placeholder="Phone, email, or username"/>
@@ -19,20 +14,25 @@ const Twitter = () => (
             <input className="h2 br-pill light-blue b--light-blue ml2 f6" type="submit" value="Log in"/>
           </form>
         </div>
-        <div className="flex flex-column h-100 justify-center items-center mh4 pb6">
+        <div className="flex flex-column h-100 justify-center items-center mh4-ns pb6">
           <div className="w-70">
             <h1>See what's happening in the world right now</h1>
             <h3>Join Twitter Today</h3>
             <form action="" className="flex flex-column">
               <input className="pv3 o-60 f6 mb3 pl2" type="text" placeholder="Phone or email" name="phone-email" id=""/>
               <input className="pv3 o-60 f6 mb3 pl2" type="text" placeholder="Password" name="password" id=""/>
-              <div className="f6 flex w-80 items-center">
+              <div className="f6 flex items-center">
                 <input className="h2 br-pill bg-light-blue white bn" type="submit" value="  Get Started  "/>              
                 <span className="ml-auto">Have an account? <a href="" className="link light-blue">Log in</a></span>
               </div>
             </form>
           </div>
         </div>
+      </div>
+      <div className="bg-light-blue f4 flex white flex-grow-1 flex-column justify-center items-center pv0-ns pv5 w-50-ns">
+        <div className="pb4 w-60 pt0-ns pt2"><i className="fas fa-search"></i> Follow your interests</div>
+        <div className="pb4 w-60"><i className="far fa-user"></i> Hear what people are talking about</div>
+        <div className="w-60"><i className="far fa-comment"></i> Join the Conversation</div>
       </div>
     </div>
     <ul className="list f7 flex justify-around items-center flex-wrap link ba ma0 pv3 ph6 bg-white">
