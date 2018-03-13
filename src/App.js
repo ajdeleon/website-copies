@@ -5,6 +5,7 @@ import Home from './Home'
 import Google from './google/components/Google'
 import Twitter from './twitter/Twitter'
 import Facebook from './facebook/Facebook'
+import Instagram from './instagram/Instagram'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Route exact path="/google" component={Google} />      
         <Route exact path="/twitter" component={Twitter} />    
         <Route exact path="/facebook" component={Facebook} />    
+        <Route exact path="/instagram" component={Instagram} />    
       </div>
     </BrowserRouter>
   )
