@@ -12,6 +12,7 @@ const Home = () => (
         <li className="pt3"><Link to="/google" className="link red">Google</Link></li>
         <li className="pt3"><Link to="/twitter" className="link light-blue">Twitter</Link></li>
         <li className="pt3"><Link to="/instagram" className="link light-purple">Instagram</Link></li>
+        <li className="pt3"><Link to="/spotify" className="link green">Spotify</Link></li>
       </ul>
     </div>
   </div>
